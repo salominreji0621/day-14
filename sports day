@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    int students, teams;
+
+    scanf("%d", &students);
+    scanf("%d", &teams);
+    printf("%d\n", students / teams);
+    printf("%d\n", students % teams);
+
+    return 0;
+}
